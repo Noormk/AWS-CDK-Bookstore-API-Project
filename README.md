@@ -22,7 +22,7 @@
 - DELETE /books/{id}: Delete a book by ID
 
 ## Architecture 
-![alt text](image.png)
+![alt text](images/image.png)
 
 ## Directory Structure 
 ![alt text](images/image-1.png)
@@ -34,18 +34,18 @@
 
 ## Screenshots 
 ### AWS Lambda 
-![alt text](<Screenshot 2024-05-27 134410.png>)
-![alt text](<Screenshot 2024-05-27 130219.png>)
+![alt text](<images/Screenshot 2024-05-27 130219.png>)
+![alt text](<images/Screenshot 2024-05-27 130251.png>)
 
 ### AWS API Gateway
-![alt text](<Screenshot 2024-05-27 130309.png>)
+![alt text](<images/Screenshot 2024-05-27 130309.png>)
 
 ### AWS DynamoDB
-![alt text](<Screenshot 2024-05-27 130251.png>)
+![alt text](<images/Screenshot 2024-05-27 130251.png>)
 
 ## Challenges 
 Encountered an internal server error when accessing the API Gateway link.
-![alt text](<Screenshot 2024-05-27 134400.png>)
+![alt text](<images/Screenshot 2024-05-27 134400.png>)
 
 ## Improvements 
 - Add CloudFormation Template Unit Tests: I plan to include a test.js file in future iterations to test my CloudFormation templates. These tests will ensure the reliability and correctness of my infrastructure definitions, helping me catch potential issues early in development. With automated testing integrated into my CI/CD pipeline, I aim to maintain high-quality AWS deployments.
