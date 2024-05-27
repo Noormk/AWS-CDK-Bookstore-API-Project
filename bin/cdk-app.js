@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 
 const cdk = require('aws-cdk-lib');
-const { CdkAppStack } = require('../lib/cdk-app-stack');
+const { CdkBookstoreApiStack } = require('../lib/cdk-bookstore-api-stack');
 
 const app = new cdk.App();
-new CdkAppStack(app, 'CdkAppStack', {
-  
+new CdkBookstoreApiStack(app, 'CdkBookstoreApiStack', {
+  env: { 
+    account: process.env.CDK_DEFAULT_ACCOUNT, 
+    region: process.env.CDK_DEFAULT_REGION 
+  }
 });
