@@ -25,7 +25,8 @@
 ![alt text](image.png)
 
 ## Directory Structure 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
+
 ## Deployment 
 1. Bootstrap your AWS environment 
    -- cdk bookstrap
